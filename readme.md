@@ -1,0 +1,1 @@
+there is a guess a number a game in which you have to guess a number between 1 and 100 with hints which are being provided that no. is less or more than your current guesses number and you have 10 attempts to guess the number 
