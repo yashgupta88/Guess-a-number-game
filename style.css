@@ -1,0 +1,116 @@
+body{
+    background-color: orange;
+    color:black;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width:100%;
+    background-color: white;
+}
+nav >*{
+    margin:20px;
+    height:30px;
+    width:80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+@keyframes typing{
+    from{
+        width:0;
+    }
+    to{
+        width:21ch
+    }
+}
+h1{
+    width:21ch;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration:underline;
+    animation:typing 3s steps(21) forwards;
+    animation-iteration-count: infinite;
+
+}
+.heading{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    margin-top: 30px;
+    padding-top: 40px;
+    text-align: center;
+    text-decoration:underline;
+    color:black;
+
+}
+form{
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 260px;
+    margin-right: 260px;
+    height:300px;
+    border: 2px solid yellow;
+    border-radius: 15px;
+}
+input{
+    margin: 20px;
+    height: 30px;
+    border: 3px solid white;
+    border-radius: 15px;
+    
+}
+#submit{
+     margin: 20px;
+    height: 40px;
+    width: 120px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+#prev{
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 6px;
+    background-color: white;
+     margin-left: 260px;
+    margin-right: 260px;
+     border: 2px solid white;
+    border-radius: 15px;
+}
+#remaining{
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 6px;
+    background-color: white;
+     margin-left: 260px;
+    margin-right: 260px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+#hint{
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 6px;
+    background-color: white;
+     margin-left: 260px;
+    margin-right: 260px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+#start{
+    margin-top: 30px;
+    text-align: center;
+}
